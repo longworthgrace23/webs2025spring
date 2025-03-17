@@ -1,6 +1,12 @@
+* {
+    font-family: sans-serif;
+    margin-left: 20px;;
+}
+
 h1 {
     color: #4676A9;
     font-size: 3rem;
+    text-align: center;
 }
 
 h2 {
@@ -17,4 +23,10 @@ footer {
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     font-size: .8rem;
+    padding: 1px;
+    border: 5px solid #6E84CF;
+}
+
+img {
+    align-items: center;
 }
