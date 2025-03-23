@@ -1,0 +1,29 @@
+ /* include padding/margin in your width declarations */
+ * {
+    box-sizing: border-box;  
+}
+
+/* basic spacing */
+body {
+    padding: 1em;     /* avoid crowding content against the edges */
+}
+
+/* make the appearance less "default".
+   Note that this is a light theme; you could also make a dark theme by reversing the colors. */
+body {
+    font-family: sans-serif; /* for body text on a screen, sans-serifs are often easier to read */
+    color: #333;             /* pull back from hard black */
+    background-color: #ddd;  /* pull back from hard white */
+}
+
+/* Use this class on section, article, or div elements
+   to keep text lines from getting too long to comfortably read */
+.wrapper {
+    max-width: 50em;  
+}
+
+/* keep images from overflowing the viewport */
+img {
+    max-height: 100vh;
+    max-width: 100vw;
+}
