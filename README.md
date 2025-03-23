@@ -1,1 +1,3 @@
-Home of Grace's upcoming web design project
+Home of Grace's upcoming web design project (professional portfolio)
+
+So far, the .html content of my web design project builds out the basic structure of the landing page. It includes a heading with a title and a navigation menu, space for a professional headshot and introduction, a projects section with further navigation to two undeveloped html pages, and a section that will contain information about my professional experience. Next steps for this page include writing up text to fill the space currently taken by placeholders, building up the styling, and increasing the functionality of the header's navigation. For the two blank pages linked in the 'projects' section menu, I plan to use them as a hub that direct users to links/further pages within the site containing my work samples. The samples included will correspond with the two subpages I have outlined. 
