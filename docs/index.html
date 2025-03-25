@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <head>
+    <html lang="en">
     <title>Grace Longworth - Portfolio</title>
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="main_nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li> <!-- **hamburger menu** this will be a dropdown linking to writing_samples.html and design_samples.html; link itself won't be clickable -->
-                <li><a href="#resume">About</a></li> <!-- jumps to bottom of index.html (id="resume") -->
+                <li><a href="#projects">Projects</a></li> 
+                <li><a href="#resume">About</a></li> 
             </ul>
-        <h1>Title</h1>
-        <img src="something.jpg" alt="headshot">
+        </nav>
     </header>
     <main>
-        <section id="cover_letter">
-            <h2>Hi, I'm Grace!</h2>
-                <p>Text of intro/overview; to-be-written</p>
-        </section>
-        <section id="projects nav">
+        <section id="cover_letter" class="intro_grid">
+            <img class="headshot" src="C:\Users\longw\Desktop\webs2025spring\docs\img\headshot2.jpg" alt="headshot" width="auto" height="350">
+            <div>
+            <h1>Hi, I'm Grace.</h1>
+                <p>I'm a sophomore at the University of Pittsburgh studying political science, economics and professional writing. I'm currently the assistant copy chief (and soon-to-be managing editor) of The Pitt News, the university's independent + student run newsroom/de facto journalism department. </p>
+            </div>
+            </section>
+        <section id="projects">
             <h2>My Projects</h2>
                 <p>introductory sentence. see my work here:</p>
-                <ul>
-                    <li><a href="writing_samples.html">Written works</a></li>
-                    <li><a href="design_samples.html">Digital media</a></li>
+                <nav class="projects_nav">
+                    <ul>
+                        <li><a href="writing_samples.html">Written works</a></li>
+                        <li><a href="design_samples.html">Digital media</a></li>
+                    </ul>
+                </nav>
         </section>
         <section id="resume">
             <h2>Learn more about me...</h2>

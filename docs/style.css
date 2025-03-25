@@ -11,9 +11,9 @@ body {
 /* make the appearance less "default".
    Note that this is a light theme; you could also make a dark theme by reversing the colors. */
 body {
-    font-family: sans-serif; /* for body text on a screen, sans-serifs are often easier to read */
+    font:'Courier New'; /* for body text on a screen, sans-serifs are often easier to read */
     color: #333;             /* pull back from hard black */
-    background-color: #ddd;  /* pull back from hard white */
+    background-color: #fafbfc;  /* pull back from hard white */
 }
 
 /* Use this class on section, article, or div elements
@@ -26,4 +26,55 @@ body {
 img {
     max-height: 100vh;
     max-width: 100vw;
+}
+
+/* main menu */
+
+
+.main_nav a {
+    color: #0b4480;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main_nav a:hover, .main_nav a:focus {
+    color: #4879b2;
+}
+
+.main_nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: end;
+}
+
+.main_nav li a {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    text-decoration: none;
+}
+
+.intro_grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1em;
+}
+
+.headshot {
+    border-radius: 50%;
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    overflow-x: hidden;
+    border: 10px solid #0b4480;
+}
+
+h1 {
+    color: #0b4480;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #4879b2;
+    font-size: 2rem;
 }
