@@ -8,15 +8,15 @@ Assets:
 | **Assets** | **Sources** |
 | -------------------------------- | ---------------------------------- |
 | Headshot | Personal image | 
-| Newspaper image for Washington Post column | Photo by AbsolutVision on Unsplash. Published 09/06/17; licensed under [the Unsplash License.](https://unsplash.com/license) | 
-| Microphone image for Ariana Grande column | Photo by Kane Reinholdtsen on Unsplash. Published 10/05/16; licensed under [the Unsplash License.](https://unsplash.com/license) |
-| Crowd of football fans for Pitt Pope feature | Photo by Caleb Woods on Unsplash. Published 02/08/23; licensed under [the Unsplash License.](https://unsplash.com/license) |
-| B&W protest image for analysis essay sample | Photo by Koshu Kunii on Unsplash. Published 06/01/20; licensed under [the Unsplash License.](https://unsplash.com/license) |
-| Voting stickers for research project sample | Photo by Element5 Digital on Unsplash. Published 10/30/18; licensed under [the Unsplash License.](https://unsplash.com/license) |
-| Data analysis project | Photo by Chris Liverani on Unsplash. Published 02/09/18; licensed under [the Unsplash License.](https://unsplash.com/license) |
+| Newspaper image for Washington Post column | Photo by AbsolutVision on Unsplash. Published 09/06/17; licensed under [the Unsplash License.](https://unsplash.com/license) URL: https://unsplash.com/photos/business-newspaper-article-WYd_PkCa1BY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash | 
+| Microphone image for Ariana Grande column | Photo by Kane Reinholdtsen on Unsplash. Published 10/05/16; licensed under [the Unsplash License.](https://unsplash.com/license) URL: https://unsplash.com/photos/silver-corded-microphone-in-shallow-focus-photography-LETdkk7wHQk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash |
+| Crowd of football fans for Pitt Pope feature | Photo by Caleb Woods on Unsplash. Published 02/08/23; licensed under [the Unsplash License.](https://unsplash.com/license) URL: https://unsplash.com/photos/a-crowd-of-people-watching-a-football-game-GhBNlUpLNJA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash |
+| B&W protest image for analysis essay sample | Photo by Koshu Kunii on Unsplash. Published 06/01/20; licensed under [the Unsplash License.](https://unsplash.com/license) URL: https://unsplash.com/photos/man-in-black-jacket-holding-white-printer-paper-ILpe0MpOYww?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash |
+| Voting stickers for research project sample | Photo by Element5 Digital on Unsplash. Published 10/30/18; licensed under [the Unsplash License.](https://unsplash.com/license) URL: https://unsplash.com/photos/voted-printed-papers-on-white-surface-ls8Kc0P9hAA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash |
+| Data analysis project | Photo by Chris Liverani on Unsplash. Published 02/09/18; licensed under [the Unsplash License.](https://unsplash.com/license) URL: https://unsplash.com/photos/turned-on-flat-screen-monitor-dBI_My696Rk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash |
 | Pitt soccer | Personal image |
-| Audio narrative unit | Photo by Ritual Visuals on Unsplash. Published 05/12/21; licensed under [the Unsplash License.](https://unsplash.com/license) |
-| Visual argument unit | Photo by Claudio Schwarz on Unsplash. Published 07/11/19; licensed under [the Unsplash License.](https://unsplash.com/license) |
+| Audio narrative unit | Photo by Ritual Visuals on Unsplash. Published 05/12/21; licensed under [the Unsplash License.](https://unsplash.com/license) URL: https://unsplash.com/photos/person-in-white-shirt-and-blue-denim-jeans-walking-on-sidewalk-oT2GnH8n3o8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash |
+| Visual argument unit | Photo by Claudio Schwarz on Unsplash. Published 07/11/19; licensed under [the Unsplash License.](https://unsplash.com/license) URL: https://unsplash.com/photos/fck-nzs-sticker-on-pole-B3581Rit_nI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash |
 
 ### Preview
 
