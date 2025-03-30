@@ -104,6 +104,29 @@ p {
     margin-bottom: 3em;
 }
 
+/* resume section styling */
+
+h3 {
+    color: #5a7899;
+    font-size: 1.5rem;
+}
+
+h4 {
+    color: #34364e;
+    font-size: 1.25rem;
+}
+
+.resume ul li {
+    list-style-type: square;
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+.resume p {
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
 /* layout for samples */
 
 .sample_grid {
