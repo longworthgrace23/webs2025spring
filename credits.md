@@ -8,15 +8,15 @@ Assets:
 | **Assets** | **Sources** |
 | -------------------------------- | ---------------------------------- |
 | Headshot | Personal image | 
-| Newspaper image for Washington Post column | Photo by AbsolutVision on Unsplash. Published 09/06/17; licensed under [https://unsplash.com/license](the Unsplash License.) | 
-| Microphone image for Ariana Grande column | Photo by Kane Reinholdtsen on Unsplash. Published 10/05/16; licensed under [https://unsplash.com/license](the Unsplash License.) |
-| Crowd of football fans for Pitt Pope feature | Photo by Caleb Woods on Unsplash. Published 02/08/23; licensed under [https://unsplash.com/license](the Unsplash License.) |
-| B&W protest image for analysis essay sample | Photo by Koshu Kunii on Unsplash. Published 06/01/20; licensed under [https://unsplash.com/license](the Unsplash License.) |
-| Voting stickers for research project sample | Photo by Element5 Digital on Unsplash. Published 10/30/18; licensed under [https://unsplash.com/license](the Unsplash License.) |
-| Data analysis project | Photo by Chris Liverani on Unsplash. Published 02/09/18; licensed under [https://unsplash.com/license](the Unsplash License.) |
+| Newspaper image for Washington Post column | Photo by AbsolutVision on Unsplash. Published 09/06/17; licensed under [the Unsplash License.](https://unsplash.com/license) | 
+| Microphone image for Ariana Grande column | Photo by Kane Reinholdtsen on Unsplash. Published 10/05/16; licensed under [the Unsplash License.](https://unsplash.com/license) |
+| Crowd of football fans for Pitt Pope feature | Photo by Caleb Woods on Unsplash. Published 02/08/23; licensed under [the Unsplash License.](https://unsplash.com/license) |
+| B&W protest image for analysis essay sample | Photo by Koshu Kunii on Unsplash. Published 06/01/20; licensed under [the Unsplash License.](https://unsplash.com/license) |
+| Voting stickers for research project sample | Photo by Element5 Digital on Unsplash. Published 10/30/18; licensed under [the Unsplash License.](https://unsplash.com/license) |
+| Data analysis project | Photo by Chris Liverani on Unsplash. Published 02/09/18; licensed under [the Unsplash License.](https://unsplash.com/license) |
 | Pitt soccer | Personal image |
-| Audio narrative unit | Photo by Ritual Visuals on Unsplash. Published 05/12/21; licensed under [https://unsplash.com/license](the Unsplash License.) |
-| Visual argument unit | Photo by Claudio Schwarz on Unsplash. Published 07/11/19; licensed under [https://unsplash.com/license](the Unsplash License.) |
+| Audio narrative unit | Photo by Ritual Visuals on Unsplash. Published 05/12/21; licensed under [the Unsplash License.](https://unsplash.com/license) |
+| Visual argument unit | Photo by Claudio Schwarz on Unsplash. Published 07/11/19; licensed under [the Unsplash License.](https://unsplash.com/license) |
 
 ### Preview
 
