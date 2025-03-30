@@ -1,6 +1,8 @@
  /* default styling (from lesson 18, altered slightly) */
  * {
     box-sizing: border-box;  
+    margin-left: .5em;
+    margin-right: .5em;
 }
 
 body {
@@ -14,12 +16,28 @@ body {
 /* Use this class on section, article, or div elements
    to keep text lines from getting too long to comfortably read */
 .wrapper {
-    max-width: 50em;  
+    max-width: 80em;  
 }
 
 img {
     max-height: 100vh;
     max-width: 100vw;
+}
+
+/* general text */
+
+h1 {
+    color: #0b4480;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #4879b2;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.25rem;
 }
 
 /* main menu and projects nav general styling */
@@ -55,6 +73,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 5em;
+    margin-bottom: 3em;
 }
 
 .headshot_container {
@@ -75,6 +94,16 @@ img {
     border: 5px solid #0b4480;
 }
 
+/* creates gap between projects, resume and footer sections */
+
+#projects {
+    margin-bottom: 3em;
+}
+
+#resume {
+    margin-bottom: 3em;
+}
+
 /* layout for samples */
 
 .sample_grid {
@@ -88,7 +117,7 @@ img {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 1em;
+    padding: 3em;
 }
 
 .grid_cell img {
@@ -111,18 +140,23 @@ img {
     transition: .1s linear;
 }
 
-/* headings + body text */
+/* essay sample pages */
 
-h1 {
-    color: #0b4480;
-    font-size: 3rem;
+.essay_text {
+    text-align: left;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 65em;
 }
 
-h2 {
-    color: #4879b2;
-    font-size: 2rem;
+.byline {
+    font-size: 1rem;
+    color: #4e759f;
+    margin-bottom: 1em;
 }
 
-p {
-    font-size: 1.25rem;
+.context {
+    font-size: 0.9rem;
+    color: #4e759f;
+    margin-bottom: 1em;
 }
