@@ -160,3 +160,10 @@ p {
     color: #4e759f;
     margin-bottom: 1em;
 }
+
+.table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #0b4480;
+}
