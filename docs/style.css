@@ -71,7 +71,7 @@ p {
 .projects_nav li a {
     padding: 0.5em 10em;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     outline: solid 2px #0b4480;
     border-radius: 5px;
     background-color:  #d1e5f9;
@@ -79,8 +79,8 @@ p {
 
 .projects_nav ul {
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1em;
     justify-content: center;
     margin-top: 3em;
