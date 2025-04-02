@@ -40,19 +40,18 @@ p {
     font-size: 1.25rem;
 }
 
-/* main menu and projects nav general styling */
+/* main menu, projects nav and socials general styling */
 
-.main_nav a, .projects_nav a {
+.main_nav a, .projects_nav a, .socials a {
+    text-decoration: none;
     color: #0b4480;
-    
 }
 
-.main_nav a:hover, .main_nav a:focus, .projects_nav a:hover, .projects_nav a:focus {
+.main_nav a:hover, .main_nav a:focus, .projects_nav a:hover, .projects_nav a:focus, .socials a:hover, .socials a:focus {
     color: #4879b2;
 }
 
 .main_nav li a, .projects_nav li a {
-    display: inline-block;
     padding: 0.2em 0.5em;
     text-decoration: none;
 }
@@ -189,4 +188,14 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     border: 10px solid #0b4480;
+}
+
+/* socials links styling */
+
+.socials a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: solid 1px #0b4480;
+    border-radius: 5px;
+    background-color: #c5e1ff;
 }
