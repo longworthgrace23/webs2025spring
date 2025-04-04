@@ -80,7 +80,7 @@ p {
 .projects_nav ul {
     list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1em;
     justify-content: center;
     margin-top: 3em;
@@ -96,7 +96,8 @@ p {
 
 .intro_grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template: repeat(auto-fill, minmax(300px, 1fr)) / repeat(auto-fill, minmax(400px, 1fr));
+    grid-auto-flow: row dense;
     gap: 5em;
     margin-bottom: 3em;
 }
@@ -105,18 +106,22 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
     height: auto;
     overflow-x: hidden;
 }
 
 .headshot {
     border-radius: 50%;
-    max-width: 100%;
-    width: 300px;
+    width: auto;
     height: auto;
     overflow-x: hidden;
+    overflow-y: hidden;
     border: 5px solid #0b4480;
+}
+
+.intro_grid p {
+    font-size: 1.5rem;
+    padding: 0.5em;
 }
 
 /* creates gap between projects, resume and footer sections */
