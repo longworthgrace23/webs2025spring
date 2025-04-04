@@ -156,9 +156,8 @@ h4 {
 
 .sample_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-flow: row;
-    gap: 1em;
+    grid-template: repeat(auto-fill, minmax(600px, 3fr)) / repeat(auto-fill, minmax(450px, 1fr));
+    grid-auto-flow: row dense;
 }
 
 .grid_cell {
@@ -170,7 +169,7 @@ h4 {
 
 .grid_cell img {
     max-width: 100%;
-    height: 200px;
+    height: auto;
     width: auto;
     overflow-y: hidden;
     overflow-x: hidden;
