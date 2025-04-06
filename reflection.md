@@ -20,15 +20,15 @@ The buttons in the images above direct users to two HTML pages (“written_sampl
 
 <img src="https://github.com/longworthgrace23/webs2025spring/blob/main/screenshots/feedback.png">
 
-<img src=“https://github.com/longworthgrace23/webs2025spring/blob/main/screenshots/img%20link%20border%20change%20(workspace%20+%20webpage).png?raw=true”>  
+<img src="screenshots/img link border change (workspace + webpage).png">  
 
 These images also had issues with viewport size-responsiveness when I first implemented them. In trying to keep them all a consistent size, I declared a fixed height property on them in CSS and caused them to warp when the screen got smaller. Because they were also in a grid with fixed column proportions, the captions beneath each of them narrowed to about one word per line on a small viewport. To address both of these problems, I combined ideas from the [“grid-auto-flow” tutorial](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow) and the [Rachel Andrew tutorial](https://gridbyexample.com/examples/example28/) from lesson 22. The “repeat(auto-fill, minmax())” property from the latter forces divs into new rows when the viewport becomes too small to accommodate an image of the declared size, while the former involves the “dense” value that keeps the images attached to their corresponding captions as items move around. The screenshots below show what the grids look like on a full Chrome window on my laptop versus an iPhone 14 (converted using the inspect tool):
 
 Chrome window:
-<img src=“https://github.com/longworthgrace23/webs2025spring/blob/main/screenshots/sample%20layout%20full%20chrome%20window.png?raw=true”> 
+<img src="screenshots/sample layout full chrome window.png"> 
 
 iPhone:
-<img src=“https://github.com/longworthgrace23/webs2025spring/blob/main/screenshots/sample%20layout%20responsiveness.png?raw=true”> 
+<img src="screenshots/sample layout responsiveness.png"> 
 
 ### Individual samples
 
