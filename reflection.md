@@ -9,10 +9,10 @@ Even before reading the parachute prompts for this unit, I knew I wanted to crea
 The basic structure of this home page includes four sections: a top layer briefly describing me and my professional qualities plus a headshot, two links to navigate between the main categories of my samples, a more in-depth description of my professional experience pulled from my resume, and a footer with links to a few of my social media profiles and the site’s credits. I used grid styling on the first two sections, using classes and divs to properly define them and the CSS property “grid-auto-flow” from [this tutorial](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow) to ensure viewport size-responsiveness. The images below show the before-and-after of the size responsive styling on the “projects” menu in both code and browser view. 
 
 Before:
-<img “src=https://github.com/longworthgrace23/webs2025spring/blob/main/screenshots/unresponsive%20styling%20on%20.projects_nav.png?raw=true”>
+<img src="screenshots/unresponsive styling on .projects_nav.png">
 
 After:
-<img “src=https://github.com/longworthgrace23/webs2025spring/blob/main/screenshots/projects%20menu%20sizing.png?raw=true”> 
+<img src="screenshots/projects menu sizing.png"> 
 
 ### Sample hubs
 
