@@ -98,7 +98,8 @@ p {
 
 .intro_grid {
     display: grid;
-    grid-template: repeat(auto-fill, minmax(300px, 1fr)) / repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-auto-flow: row dense;
     gap: 5em;
     margin-bottom: 3em;
@@ -139,12 +140,13 @@ p {
 /* resume section styling */
 
 h3 {
-    color: #5a7899;
+    color: #2f5c89;
     font-size: 1.5rem;
+    text-decoration: underline;
 }
 
 h4 {
-    color: #34364e;
+    color: #6f98d0;
     font-size: 1.25rem;
 }
 
@@ -155,8 +157,13 @@ h4 {
 }
 
 .resume p {
-    font-size: 1rem;
     margin-bottom: 1em;
+    margin-left: 3em;
+    font-size: 1rem;
+}
+
+.resume_intro {
+    font-size: 1.25rem;
 }
 
 /* layout for samples */
