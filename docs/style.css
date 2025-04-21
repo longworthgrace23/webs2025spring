@@ -16,7 +16,8 @@ body {
 /* Use this class on section, article, or div elements
    to keep text lines from getting too long to comfortably read */
 .wrapper {
-    max-width: 80em;  
+    max-width: 80em; 
+    margin: auto; 
 }
 
 img {
@@ -228,6 +229,10 @@ h4 {
 .grid_cell a:hover img, .grid_cell a:focus img {
     outline: 10px solid #4879b2;
     transition: .1s linear;
+}
+
+.grid_cell h3 {
+    text-decoration: none;
 }
 
 /* essay sample pages */
