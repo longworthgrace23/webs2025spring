@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grace Longworth - Portfolio (Design Samples)</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="main_nav">
+                <button class="menu_button">☰</button>
+                <ul class="menu_items">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="has_submenu">
+                        <a href="#" class="submenu_trigger">Projects</a>
+                        <ul class="submenu">
+                            <li><a href="writing_samples.html">Writing samples</a></li>
+                            <li><a href="design_samples.html">Digital & design samples</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#resume">About</a></li>
+                    <li class="has_submenu">
+                        <a href="#" class="submenu_trigger">Connect</a>
+                        <ul class="submenu">
+                            <li><a href="https://www.instagram.com/gl.photos_pgh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.linkedin.com/in/grace-longworth-022281328" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://mail.google.com/mail/?view=cm&to=longworthgrace23@gmail.com" target="_blank">Email</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://github.com/longworthgrace23/webs2025spring/blob/main/credits.md" target="_blank">Site Credits</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="essay_text">
+            <h1>School Funding, Economic Need, and Student Performance: An Analysis of Correlation</h1>
+                <p class="byline">By Grace Longworth</p>
+                <p class="context">Conducted for Dr. Taylor Weidman's "Economic Data Analysis" course.</p>
+            <h2>Introduction</h2>    
+                <p>Achievement in secondary-level education is a significant predictor of future success. As such, I was interested in exploring the influence of two factors on public school testing performance: a district’s state funding per student and its volume of students with economic disadvantages. States allocate more funds to schools with lower test scores to provide additional support, so the anticipated result is a negative relationship between scores and funding; that is, scores will be lower at schools receiving additional funding. We can expect a similar negative relationship between scores and economic disadvantage based on the assumption that students with less access to academic resources at home will score comparatively lower.</p>
+            <h2>Data Methods</h2>
+                <p>To perform these analyses, I used publicly available data from the Pennsylvania Department of Education. The first dataset lists the dollar amount of funding per student each of the state’s public school districts received from local, state, federal, and other sources in 2022/23.<sup>[1]</sup><em>Figure 1</em>shows the distribution of state funding, which is right-skewed with most schools receiving in the area of $5,000 per student.</p>
+                <p class="byline"><em>Figure 1</em></p>
+                <img class="table" src="img/funding_distribution.png" alt="Bar graph showing the distribution of state funding per student in Pennsylvania public school districts. Most schools receive around $5,000 per student.">
+                <p>The second dataset describes the percentage of public high school juniors scoring in each of four possible categories on Pennsylvania’s state-administered Keystone exams in 2023.<sup>[2]</sup>The dataset breaks down student scores by district demographics, including students with economic disadvantages.<em>Figure 2</em>shows the distribution of pass rates (that is, the combined percentage of students scoring in the “Proficient” and “Advanced” categories) for all students in blue and for economically disadvantaged students in red. Scores for economically disadvantaged students are comparatively lower than for students in general.</p>
+                <p class="byline"><em>Figure 2</em></p>
+                <img class="table" src="img/scores_distribution.png" alt="Dual boxplots showing the distribution of pass rates for all students in blue and economically disadvantaged students in red. The economically disadvantaged students have lower scores.">
+            <h2>Statistical Methods</h2>
+                <p>I performed my analyses using Google Colab and its built-in AI tool, Gemini.<sup>[3]</sup>To perform my first analysis, I used a statistical model to predict test scores using state funding, controlling for the effect of economic disadvantages.<em>Figure 3</em>shows said statistical model and a visualization of the resulting relationship.</p>
+                <p class="byline"><em>Figure 3</em></p>
+                <p>scores = &Beta;<sub>0</sub> + &Beta;<sub>1</sub> &times; funding + &Beta;<sub>2</sub> &times; disadvantage + &epsilon; </p>
+                <img class="table" src="img/regression1.png" alt="Scatter plot showing the relationship between state funding and test scores. The regression line is weakly negative, indicating that as funding increases, scores decrease slightly.">
+                <p>The second analysis evaluated student economic disadvantage as a predictor of test scores, this time controlling for the impact of state funding.<em>Figure 4</em>shows an alternative statistical model with the two variables inverted from the previous analysis and the scatter plot produced by this linear regression.</p>
+                <p class="byline"><em>Figure 4</em></p>
+                <p>scores = &Beta;<sub>0</sub> + &Beta;<sub>1</sub> &times; disadvantage + &Beta;<sub>2</sub> &times; funding + &epsilon; </p>
+                <img class="table" src="img/regression2.png" alt="Scatter plot showing the relationship between economic disadvantage and test scores. The regression line is strongly negative, indicating that as disadvantage increases, scores decrease significantly.">
+                <p>*Note: residual plots showed mild heteroskedasticity, which was accounted for by applying robust standard errors to both models.</p>
+            <h2>Results</h2>
+                <p><em>Table 1</em>shows the linear regression output of Analysis 1 (scores predicted by funding, holding student disadvantage constant) while<em>Table 2</em>shows the regression results for Analysis 2 (scores predicted by student disadvantage, holding funding constant).</p>
+                <p class="byline"><em>Table 1 (left) & Table 2 (right)</em></p>
+                <img class="table" src="img/regression_tables.png" alt="Two tables showing the linear regression output for Analysis 1 and Analysis 2. The first table shows a weak negative relationship between funding and scores, while the second table shows a strong negative relationship between disadvantage and scores.">
+                <p>These results indicate the following:</p>
+                <ul class="results_list">
+                    <li>When controlling for the impact of student economic circumstances, each additional dollar of state funding received by a Pennsylvania public school district is associated with a 0.0004 percentage point decline in passing test scores.</li>
+                    <li>When controlling for the impact of state funding, each additional percentage of a district’s student population that experiences economic difficulties is associated with a 49.0773 percentage point decline in passing test scores.</li>
+                </ul>
+                <p>The regression results are consistent with the anticipated results and reveal the magnitude of each variable of interest, with the influence of economic need exceeding that of state funding.</p>
+            <h2>Conclusion</h2>
+                <p>To summarize, these regression models suggest that a student’s economic status greatly outweighs their school’s funding as a predictor of their success on standardized tests. While state-level resources have a distinct impact on testing outcomes, the much more powerful factor influencing performance is the resources a student receives at home.</p>
+            <h2>References</h2>
+                <p><sup>[1]</sup>Pennsylvania Department of Education. Assessment Reporting, Keystone Exam, District Level Data, 2023. </p>
+                <p><sup>[2]</sup>Pennsylvania Department of Education. School Finances, Financial Data, AFR Data: Summary Level, Revenue Data 2022-2023. Tested data retrieved from file's second tab: "2022-23 Rev per ADM."</p>
+                <p><sup>[3]</sup>Gemini, https://gemini.google.com/app. Used to clean and transform dataframes; code plots to visualize key variables and relationships.</p>
+        </main>

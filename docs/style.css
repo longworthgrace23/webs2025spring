@@ -280,4 +280,11 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     border: 10px solid #0b4480;
+    height: auto;
+    width: 70%;
+}
+
+.essay_text ul li {
+    font-size: 1.25rem;
+    list-style-type: upper-alpha;
 }
